@@ -984,6 +984,9 @@ div#purchaseRecord .free-ad-title-row,div#purchaseRecord .order-panel {
     color: #fff!important;
     margin-left: 5px;
 }
+.repeat-credit-items.selected .credit-tick {
+    background: #c11768;
+}
 .creadit-half-price {
     display: block;
     font-size: 10px;
