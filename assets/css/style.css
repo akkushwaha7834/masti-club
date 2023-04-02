@@ -37,7 +37,7 @@
   .left_sidebar_panel {
       background: #AD0E16;
       padding: 25px 0;
-	  height:100%;
+    height:100%;
   }
  .dashboard_main_content{
      padding: 100px 0 150px 0;
@@ -128,7 +128,7 @@
     list-style: none;
   }
   .checked-sign {
-    background: #fff url(/image/checked.png) no-repeat;
+    background: #fff url(../images/checked.png) no-repeat;
     background-size: contain;
     background-position: center center;
     width: 26px;
@@ -139,6 +139,9 @@
     right: 6px;
     opacity: 0;
     transition: all .5s;
+}
+.premium-div-button.selected .checked-sign {
+    opacity: 1;
 }
 a.group-btn {
     position: absolute;
@@ -154,7 +157,7 @@ a.group-btn {
 .hot-price {
     position: absolute;
     right: 38px;
-    top: 33px;
+    top: 37px;
 }
 img.scroll-group {
     float: left;
@@ -667,7 +670,7 @@ a.pt {
     text-transform: uppercase;
     padding: 0 6px;
     font-weight: 600;
-	font-size: 11px;
+  font-size: 11px;
 }
 .whatsapp-spn, .whatsapp-tick {
     background: #25d366;
@@ -712,8 +715,8 @@ a.pt {
     font-weight: 500;
 }
 .right-sidebar-panel{
-	margin-top:30px;
-	padding:12px;
+  margin-top:30px;
+  padding:12px;
 }
 .nav-tabs {
     border-bottom: 0px!important;
@@ -741,7 +744,7 @@ a.pt {
     min-height: 300px
 }
 .free-ad-white-bg-firsttt{
-	background: #fff;
+  background: #fff;
     padding: 45px;
 }
 
@@ -1076,7 +1079,7 @@ div#purchaseRecord .free-ad-title-row,div#purchaseRecord .order-panel {
     padding: 30px;
     margin-top: 24px;
     border-radius: 10px;
-	width:100%;
+  width:100%;
 }
 .tp-prem-right-img {
     margin-left: 20px;
@@ -1348,7 +1351,7 @@ div#purchaseRecord .free-ad-title-row,div#purchaseRecord .order-panel {
     padding: 10px;
 }
 .margin-top-30{
-	margin-top:30px;
+  margin-top:30px;
 }
 
 .post-ads-section.cart-pg-masti {
@@ -1434,20 +1437,20 @@ button#dimoff.not-active {
         pointer-events: none;
         background: #f9e7ec!important;
     }
-	
-	.form-layout-wrapper {
+  
+  .form-layout-wrapper {
     background: #eaedf1;
     padding: 40px;
 }
-	.top-premium-table-img {
+  .top-premium-table-img {
     margin-right: 10px;
     margin-bottom: 6px;
 }
 .mt-30{
-	margin-top:30px;
+  margin-top:30px;
 }
 @media screen and (max-width:567px){
-	.services-items {
+  .services-items {
     width: 100%;
 }
 .payment-details-table {
@@ -1470,8 +1473,8 @@ button#dimoff.not-active {
     border: 1px solid #000;
 }
 .contineu-btn-col{
-	text-align:center;
-	margin-top:20px;
+  text-align:center;
+  margin-top:20px;
 }
 .form-layout-wrapper {
     background: #eaedf1;
@@ -1490,7 +1493,7 @@ button#dimoff.not-active {
 }
 .promotion p {
     margin: 0 0 16px 0;
-	    font-size: 13px;
+      font-size: 13px;
 }
 
 .post-ads-section {
@@ -1517,7 +1520,7 @@ button#dimoff.not-active {
     justify-content: center;
 }
 .custom_btn_one, .custom_btn_two{
-	margin:10px 0px;
+  margin:10px 0px;
 }
 .cart-tabel .table thead th, .cart-tabel .table tbody td {
     border-bottom: 1px solid #fff;
@@ -1536,7 +1539,7 @@ button#dimoff.not-active {
     width: auto;
 }
 .moreinfo-with-call .cls-left{
-	display:none;
+  display:none;
 }
 .free-ad-white-bg {
     background: #eaedf1;
@@ -1556,7 +1559,7 @@ button#dimoff.not-active {
 }
 }
 @media screen and (min-width:568px) and (max-width:992px){
-	.services-items {
+  .services-items {
     width: 50%;
 }
 .schedule-listing li {

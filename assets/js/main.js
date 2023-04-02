@@ -80,3 +80,24 @@ $('#dimoff').click(function(){
     $('.dimoff').addClass('not-active')
     $('.dimoff').attr("disabled", true);
 });
+$('.premium-div-button').click(function(){
+    if($(this).hasClass('selected') ) {
+        $(this).removeClass('selected');
+         $('#exclusive-checkbox').attr('checked',false);
+        $('#exclusive-checkbox').prop('checked' ,false);
+        $('#exclusive-checkbox').attr('value',0);
+        var currentPrice = $('#exclusive-price').attr('current-price'); 
+        $('#total_price_text').html('<p>Total Price: <span>Rs '+currentPrice+'</span></p>');
+        $('#exclusive_amount').val(0.00);
+        
+    }else{
+        $(this).addClass('selected');       
+        $('#exclusive-checkbox').attr('checked',true);
+        $('#exclusive-checkbox').prop('checked' ,true);
+        $('#exclusive-checkbox').attr('value',1);
+        var totalPrice = $('#exclusive-price').attr('total-price'); 
+        var totalPriceExclusive = $('#exclusive-price').attr('exclusive-price'); 
+        $('#total_price_text').html('<p>Total Price: <span>Rs '+totalPrice+'</span></p>');
+        $('#exclusive_amount').val(totalPriceExclusive);
+    }
+});
