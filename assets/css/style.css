@@ -1552,6 +1552,10 @@ button#dimoff.not-active {
 }
 .cls-right {
     padding: 8px;
+    height: 100%;
+}
+.cls-right p{
+  line-height: 25px;
 }
 .free-ad-white-bg-firsttt.p-30.d-flex.justify-content-between.align-items-center {
     display: block!important;
@@ -1606,6 +1610,7 @@ button#dimoff.not-active {
 .promotion_exp_btns .custom-bttn {
     width: 100%;
     margin-bottom: 0px;
+    padding: 10px;
 }
 }
 @media (max-width:990px){
