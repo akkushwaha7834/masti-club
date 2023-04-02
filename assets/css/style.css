@@ -165,6 +165,9 @@ img.scroll-group {
 .premium-div-section .premium-div-button{
       text-align: center;
 }
+.creadit-package-content{
+  margin: 20px 0;
+}
   .custom-btn {
     background-image: linear-gradient(to right,#027B9A,#004658);
     cursor: pointer;
@@ -1579,6 +1582,31 @@ button#dimoff.not-active {
   .zip_class{
     margin-bottom: 30px;
   }
+  .creadit-package-listing ul li {
+    width: 33.33%;
+    font-size: 13px;
+  }
+  .creadit-package-items {
+    background: #fff;
+    border: 1px solid #dddde3;
+    border-radius: 0;
+}
+.creadit-package-listing ul li:nth-last-child(-n + 2) {
+    margin-top: 10px;
+    width: 50%;
+}
+.creadit-package-listing ul li:nth-last-child(-n + 2) span {
+    text-align: left;
+  }
+  .credit-discount {
+    padding: 4px 12px;
+    border-radius: 4px;
+    width: 143px;
+}
+.promotion_exp_btns .custom-bttn {
+    width: 100%;
+    margin-bottom: 0px;
+}
 }
 @media (max-width:990px){
   .item_card{
