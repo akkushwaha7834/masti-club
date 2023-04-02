@@ -798,11 +798,95 @@ a.pt {
 .free-ad-title-row h2 {
     font-size: 20px;
     font-weight: 900;
-    color: #c11768!important;
+    color: #004759!important;
     text-transform: uppercase;
     margin: 0
 }
-
+.free-ad-white-bg h3{
+  color: #004759;
+  font-size: 22px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.free-action li a {
+    border: 2px solid #cbd2dc;
+    display: block;
+    padding: 15px;
+    color: #707070;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #fff;
+    min-width: 110px;
+}
+.free-action li:last-child {
+    margin-right: 0;
+}
+.free-action li {
+    margin: 0 10px;
+}
+.free-action {
+    margin: 0 0 22px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.broceed-to-pay-btn {
+    background: #c11768;
+    color: #fff;
+    padding: 11px 17px;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: .5px;
+}
+.free-ad-white-bg {
+    background: #eaedf1;
+    padding: 45px;
+    border: 1px solid #fff;
+    height: 100%;
+}
+.presentaion-pic img {
+    height: 132px;
+}
+.free-ad-category {
+    margin: 30px 0 10px;
+}
+.free-ad-category li {
+    border: 1px solid #cbd2dc;
+    margin-right: 15px;
+    padding: 12px 20px;
+    background: #fff;
+}
+.gallery-call {
+    color: #c11768;
+    border: 2px solid #c11768;
+}
+.gallery-action-btn {
+    padding: 17px 30px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 15px;
+    background: #fff;
+    letter-spacing: 1px;
+}
+.gallery-action {
+    margin: 45px 0 15px;
+}
+.gallery-whatapp {
+    color: #25d366;
+    border: 2px solid #25d366;
+}
+.gallery-call:hover {
+    background: #c11768;
+    color: #fff;
+}
+.gallery-whatapp:hover {
+    background: #1db154;
+    color: #fff;
+    border-color: #1db154;
+}
 .free-ad-bg-new {
     min-height: auto;
     background: #eaedf1;
@@ -1611,6 +1695,29 @@ button#dimoff.not-active {
     width: 100%;
     margin-bottom: 0px;
     padding: 10px;
+}
+.free-ad-category li {
+    margin-right: 5px;
+    padding: 7px 13px;
+    font-size: 11px!important;
+    margin-bottom: 4px;
+}
+.free-action li a {
+    font-size: 12px;
+}
+.gallery-action-btn {
+    padding: 12px 15px;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.gallery-action-btn {
+    padding: 12px 15px;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
 }
 }
 @media (max-width:990px){
