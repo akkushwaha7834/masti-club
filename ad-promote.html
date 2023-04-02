@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Dashboard</title>
+  </head>
+  <body>
+
+    <section class="main_menu">
+          <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="https://masticlubs.com/">
+          <img src="/assets/images/logo.png" width="90%">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav main_menu_bar">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">
+                <span class="login-icons mr-1">
+                  <i class="fa fa-user" aria-hidden="true"></i>
+                </span>
+              Profile Name
+            </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="sign_up_icons mr-1">
+                  <i class="fa fa-sign-out" aria-hidden="true"></i>
+                </span>
+              Log Out
+            </a>
+            </li>
+          </ul>
+          <a href="insert-ad.html" class="custom-btn">Post Your Ad</a>
+        </div>
+      </nav>
+    </div>
+    </section>
+    
+    <section class="main-content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 p-0">
+            <div class="left_sidebar_panel boder20">
+                <!---<div class="profile_panel">
+                    <div class="user_login_img"><img src="assets/images/user-img.jpg" alt=""></div>
+                    <div class="user_login_name"><span>Hello,</span><span>Profile Name</span></div>               
+
+					</div>--->
+                <ul class="sidebar_menu">
+                    <li class="active"><a href="dashboard.html"><i class="fa fa-tachometer" aria-hidden="true"></i><span>Dashboard</span></a></li>
+                    <li><a href="ads-listing.html"><i class="fa fa-adn" aria-hidden="true"></i> <span>Ads</span></a></li>
+                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i> <span>Products</span></a></li>
+                    <li><a href="#"><i class="fa fa-money" aria-hidden="true"></i> <span>Credits</span></a></li>
+                    <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i> <span>Account Setting</span></a></li>
+                </ul>
+            </div>
+          </div>
+
+          <div class="col-md-9">
+            <div class="container">
+              
+			<div class="row ad_promote_main_content">
+			   <div class="panel panel-default blue-light-bg mb-3 step-layout-planbg">
+   <div class="panel-heading relative">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+         <div class="product-panel-left d-flex align-items-center">
+            <div class="tp-prem-left-img">
+               <img src="assets/images/product-top.png" alt="">
+            </div>
+            <div class="tp-prem-right-img">
+               <span class="product-tabs-heading">CLIMB THE TOP</span>
+               <p class="mb-0">Make your ad reach to more clients by promoting your ads! <a href="" class="premi-add-link">LEARN MORE</a></p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="richTheTop" class="panel-collapse">
+      <div class="panel-body">
+         <div class="promotyourad">
+            <a href="" class="premi-add-link">promote your ads!</a> 
+            <p>Please select the offer type and time slot to promote your ad.</p>
+         </div>
+         <div class="row services-items-row d-flex flex-wrap">
+            <div class="services-items product_box" id="3x3_pro" price="235.00" data-product-id="10">
+               <div class="services-circle-outer">
+                  <div class="services-circle-inner">
+                     <span>3x3</span>
+                  </div>
+               </div>
+               <div class="services-content">
+                  <div class="plan-listing-with-img text-cente">
+                     <input type="radio" checked="checked" name="radio">
+                     <i class="fa fa-check" aria-hidden="true"></i>
+                     <div class="plan-content-cont">
+                        <div class="pro_item_desc">
+                           <p>3 TOP-UPS a day for 3 day</p>
+                        </div>
+                        <h3>Rs 235.00</h3>
+                     </div>
+                  </div>
+                  <div class="credits-items">
+                     <span class="credit-plan">5</span>
+                     <span class="credit-title">Credits</span>
+                  </div>
+               </div>
+            </div>
+            <div class="services-items product_box" id="3x7_pro" price="470.00" data-product-id="11">
+               <div class="services-circle-outer">
+                  <div class="services-circle-inner">
+                     <span>3x7</span>
+                  </div>
+               </div>
+               <div class="services-content">
+                  <div class="plan-listing-with-img text-cente">
+                     <input type="radio" checked="checked" name="radio">
+                     <i class="fa fa-check" aria-hidden="true"></i>
+                     <div class="plan-content-cont">
+                        <div class="pro_item_desc">
+                           <p>3 TOP-UPS a day for 7 days</p>
+                        </div>
+                        <h3>Rs 470.00</h3>
+                     </div>
+                  </div>
+                  <div class="credits-items">
+                     <span class="credit-plan">10</span>
+                     <span class="credit-title">Credits</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="schedule-row">
+            <div id="select_time_range">
+               <div id="div_3x3_pro" class="time_day hidden">
+                  <ul class="schedule-listing">
+                     <li class="selectdiv set_338" data-range="9_12" current-price="235.00" exclusive-price="47.00" total-price="282.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="338">
+                        <span class="schedule-time" id="338">9:00am - 12:00pm</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                     <li class="selectdiv set_339" data-range="12_3" current-price="235.00" exclusive-price="47.00" total-price="282.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="339">
+                        <span class="schedule-time" id="339">12:00pm - 03:00pm</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                     <li class="selectdiv set_340" data-range="3_6" current-price="235.00" exclusive-price="47.00" total-price="282.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="340">
+                        <span class="schedule-time" id="340">03:00pm - 06:00pm</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                     <li class="selectdiv set_341" data-range="6_9" current-price="235.00" exclusive-price="47.00" total-price="282.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="341">
+                        <span class="schedule-time" id="341">06:00pm - 09:00pm</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                     <li class="selectdiv set_342" data-range="9_12" current-price="235.00" exclusive-price="47.00" total-price="282.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="342">
+                        <span class="schedule-time" id="342">09:00pm - 12:00am</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div id="select_time_range">
+               <div id="div_3x7_pro" class="time_day hidden">
+                  <ul class="schedule-listing">
+                     <li class="selectdiv set_343" data-range="9_12" current-price="470.00" exclusive-price="188.00" total-price="658.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="343">
+                        <span class="schedule-time" id="343">9:00am - 12:00pm</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                     <li class="selectdiv set_344" data-range="12_3" current-price="470.00" exclusive-price="188.00" total-price="658.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="344">
+                        <span class="schedule-time" id="344">12:00pm - 03:00pm</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                     <li class="selectdiv set_345" data-range="3_6" current-price="470.00" exclusive-price="188.00" total-price="658.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="345">
+                        <span class="schedule-time" id="345">03:00pm - 06:00pm</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                     <li class="selectdiv set_346" data-range="6_9" current-price="470.00" exclusive-price="188.00" total-price="658.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="346">
+                        <span class="schedule-time" id="346">06:00pm - 09:00pm</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                     <li class="selectdiv set_347" data-range="9_12" current-price="470.00" exclusive-price="188.00" total-price="658.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="347">
+                        <span class="schedule-time" id="347">09:00pm - 12:00am</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="row services-items-row d-flex flex-wrap mt-5">
+            <div class="services-items product_box" id="5x1_pro" price="141.00" data-product-id="1">
+               <div class="services-circle-outer">
+                  <div class="services-circle-inner">
+                     <span>5x1</span>
+                  </div>
+               </div>
+               <div class="services-content">
+                  <div class="plan-listing-with-img text-cente">
+                     <input type="radio" checked="checked" name="radio">
+                     <i class="fa fa-check" aria-hidden="true"></i>
+                     <div class="plan-content-cont">
+                        <div class="pro_item_desc">
+                           <p>5 TOP-UPS a day for 1 day</p>
+                        </div>
+                        <h3>Rs 141.00</h3>
+                     </div>
+                  </div>
+                  <div class="credits-items">
+                     <span class="credit-plan">3</span>
+                     <span class="credit-title">Credits</span>
+                  </div>
+               </div>
+            </div>
+            <div class="services-items product_box" id="5x3_pro" price="376.00" data-product-id="2">
+               <div class="services-circle-outer">
+                  <div class="services-circle-inner">
+                     <span>5x3</span>
+                  </div>
+               </div>
+               <div class="services-content">
+                  <div class="plan-listing-with-img text-cente">
+                     <input type="radio" checked="checked" name="radio">
+                     <i class="fa fa-check" aria-hidden="true"></i>
+                     <div class="plan-content-cont">
+                        <div class="pro_item_desc">
+                           <p>5 TOP-UPS a day for 3 day</p>
+                        </div>
+                        <h3>Rs 376.00</h3>
+                     </div>
+                  </div>
+                  <div class="credits-items">
+                     <span class="credit-plan">8</span>
+                     <span class="credit-title">Credits</span>
+                  </div>
+               </div>
+            </div>
+            <div class="services-items product_box" id="5x7_pro" price="752.00" data-product-id="3">
+               <div class="services-circle-outer">
+                  <div class="services-circle-inner">
+                     <span>5x7</span>
+                  </div>
+               </div>
+               <div class="services-content">
+                  <div class="plan-listing-with-img text-cente">
+                     <input type="radio" checked="checked" name="radio">
+                     <i class="fa fa-check" aria-hidden="true"></i>
+                     <div class="plan-content-cont">
+                        <div class="pro_item_desc">
+                           <p>5 TOP-UPS a day for 7 day</p>
+                        </div>
+                        <h3>Rs 752.00</h3>
+                     </div>
+                  </div>
+                  <div class="credits-items">
+                     <span class="credit-plan">16</span>
+                     <span class="credit-title">Credits</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="schedule-row">
+            <div id="select_time_range">
+               <div id="div_5x1_pro" class="time_day hidden">
+                  <ul class="schedule-listing">
+                     <li class="selectdiv set_323" data-range="9_12" current-price="141.00" exclusive-price="47.00" total-price="188.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="323">
+                        <span class="schedule-time" id="323">9:00am - 012:00pm</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                     <li class="selectdiv set_324" data-range="12_3" current-price="141.00" exclusive-price="47.00" total-price="188.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="324">
+                        <span class="schedule-time" id="324">12:00pm - 3:00pm</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                     <li class="selectdiv set_325" data-range="3_6" current-price="141.00" exclusive-price="47.00" total-price="188.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="325">
+                        <span class="schedule-time" id="325">03:00pm - 06:00pm</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                     <li class="selectdiv set_326" data-range="6_9" current-price="141.00" exclusive-price="47.00" total-price="188.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="326">
+                        <span class="schedule-time" id="326">06:00pm - 09:00pm</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                     <li class="selectdiv set_327" data-range="9_12" current-price="141.00" exclusive-price="47.00" total-price="188.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="327">
+                        <span class="schedule-time" id="327">09:00pm - 12:00am</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div id="select_time_range">
+               <div id="div_5x3_pro" class="time_day hidden">
+                  <ul class="schedule-listing">
+                     <li class="selectdiv set_328" data-range="9_12" current-price="376.00" exclusive-price="94.00" total-price="470.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="328">
+                        <span class="schedule-time" id="328">9:00am - 12:00pm</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                     <li class="selectdiv set_329" data-range="12_3" current-price="376.00" exclusive-price="94.00" total-price="470.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="329">
+                        <span class="schedule-time" id="329">12:00pm - 03:00pm</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                     <li class="selectdiv set_330" data-range="3_6" current-price="376.00" exclusive-price="94.00" total-price="470.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="330">
+                        <span class="schedule-time" id="330">03:00pm - 06:00pm</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                     <li class="selectdiv set_331" data-range="6_9" current-price="376.00" exclusive-price="94.00" total-price="470.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="331">
+                        <span class="schedule-time" id="331">06:00pm - 09:00pm</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                     <li class="selectdiv set_332" data-range="9_12" current-price="376.00" exclusive-price="94.00" total-price="470.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="332">
+                        <span class="schedule-time" id="332">09:00pm - 12:00am</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div id="select_time_range">
+               <div id="div_5x7_pro" class="time_day hidden">
+                  <ul class="schedule-listing">
+                     <li class="selectdiv set_333" data-range="9_12" current-price="752.00" exclusive-price="188.00" total-price="940.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="333">
+                        <span class="schedule-time" id="333">9:00am - 12:00pm</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                     <li class="selectdiv set_334" data-range="12_3" current-price="752.00" exclusive-price="188.00" total-price="940.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="334">
+                        <span class="schedule-time" id="334">12:00pm - 03:00pm</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                     <li class="selectdiv set_335" data-range="3_6" current-price="752.00" exclusive-price="188.00" total-price="940.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="335">
+                        <span class="schedule-time" id="335">03:00pm - 06:00pm</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                     <li class="selectdiv set_336" data-range="6_9" current-price="752.00" exclusive-price="188.00" total-price="940.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="336">
+                        <span class="schedule-time" id="336">06:00pm - 09:00pm</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                     <li class="selectdiv set_337" data-range="9_12" current-price="752.00" exclusive-price="188.00" total-price="940.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="337">
+                        <span class="schedule-time" id="337">9:00pm - 12:00am</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="row services-items-row night-plan-row d-flex flex-wrap mt-5">
+            <div class="services-items product_box selected" id="10x1_pro" price="141.00" data-product-id="5">
+               <div class="services-circle-outer">
+                  <div class="services-circle-inner">
+                     <span>10x1</span>
+                  </div>
+               </div>
+               <div class="services-content">
+                  <div class="plan-listing-with-img text-cente">
+                     <input type="radio" checked="checked" name="radio">
+                     <i class="fa fa-check" aria-hidden="true"></i>
+                     <div class="plan-content-cont">
+                        <div class="pro_item_desc">
+                           <p>10 TOP-UPS a day for 1 day</p>
+                        </div>
+                        <h3>Rs 141.00</h3>
+                     </div>
+                  </div>
+                  <div class="credits-items">
+                     <span class="credit-plan">3</span>
+                     <span class="credit-title">Credits</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="schedule-row">
+            <div id="select_time_range">
+               <div id="div_10x1_pro" class="time_day">
+                  <ul class="schedule-listing">
+                     <li class="selectdiv set_348" data-range="12_9" current-price="141.00" exclusive-price="47.00" total-price="188.00">
+                        <input type="radio" class="select_time_data" name="time_slot_id" value="348">
+                        <span class="schedule-time" id="348">12:00am - 09:00am</span>
+                        <span class="schedule-tick"><i class="fa fa-check" aria-hidden="true"></i></span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12 upgrade-section">
+               <div class="increase-Premium premium-upgrade hidden">
+                  <div class="Premium-box">
+                     <h5> Do You Want to Increase your Visibility? <br> Premium Ad.</h5>
+                     <a href="javascript:void(0)" class="group-btn"> <img src="assets/images/Group-91.png"> </a>
+                  </div>
+                  <p class="text-center">Up to 3 preview Pictures and the phone number visible in the ad list.</p>
+                  <img src="assets/images/Rectangle-49.png" class="scroll-group"> 
+                  <div class="premium-div-section">
+                     <div class="premium-div-button">
+                        <input type="checkbox" name="exclusive" id="exclusive-checkbox" class="hidden">
+                        <span id="exclusive-price" class="premmiun-btn">Premium Rs 00.00
+                        <img src="assets/images/hot-price.png" class="hot-price">
+                        <span class="checked-sign">&nbsp;</span>
+                        </span> 
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <div class="Choose-box">
+                  <div class="total-pric-box">
+                     <div class="parent-button">
+                        <div class="text-right">
+                        </div>
+                        <div class="text-right">
+                           <div class="total-price" id="total_price_text">
+                              <p>Total Price: <span>Rs 141.00</span></p>
+                           </div>
+                           <input class="promote-btn" type="submit" value="Promote" name="promote" id="promoteAdsFronted">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+			</div>
+       
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row"><div class="col-md-6 col-sm-8">
+                        <a class="link-footer" href="https://masticlubs.com/">Home</a>
+                        <span class="link-footer">|</span>
+                        <a class="link-footer" href="https://masticlubs.com/contact-us/">Contact Us</a>
+                        <span class="link-footer">|</span>
+                        <a class="link-footer" href="https://masticlubs.com/terms-conditions/">Terms of Use  Policy</a><span class="link-footer">|</span>
+                        <a class="link-footer" target="_blank" href="https://masticlubs.com/sitemap.xml">Sitemap</a><span class="link-footer">|</span>
+                        <a class="link-footer" target="_blank" href="https://blog.masticlubs.com/">Blog</a>
+                    </div> 
+                    <div class="col-md-6 col-sm-4 sbx">
+                        <!--<div class="h4 Followuss">Follow us</div>-->
+                        <ul class="social-icon"> <li><span class="h4 followuss">Follow us: </span>                            </li>             
+                            <li><a href="https://www.facebook.com/masticlubss/" class="fb"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/Escortslucknow1" class="twit"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://instagram.com/masticlubs/" class="pt"><i class="fa fa-instagram"></i></a></li>
+                                                     
+                        </ul>
+                       
+                    </div>                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <small>Copyright © <span id="year">2023</span>  All Rights Reserved by <a href="https://masticlubs.com/" class="link-footer">masticlubs.com</a></small>
+                    
+                </div>
+            </div>
+        </footer>
+		<script
+  src="https://code.jquery.com/jquery-3.6.4.min.js"
+  integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  </body>
+</html>
