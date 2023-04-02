@@ -119,7 +119,7 @@ var fileobj;
         if(file_obj != undefined) {
             var formdata = new FormData();
             formdata.append('_token', 'wvmZC3m8J6rlKlKPclwWpK0PWNQodVRSAO3gBNbm');
-            formdata.append('keys', 'in6831b799758135f1a14df0f5470c264c');
+            formdata.append('keys', 'in710fcf756d1a08ea478b9639461c38b2');
             $('#loading').css('display', 'block');
 
             for(i=0; i<=file_obj.length; i++) {
@@ -163,8 +163,7 @@ var fileobj;
             });
         }
     }
-
-    $(document).on("click", "span.delete-img" , function() {
+     $(document).on("click", "span.delete-img" , function() {
             var token = $('meta[name="csrf-token"]').attr('content');
             var profile_image_id = $(this).attr('data-id');
             $.ajax({

@@ -140,6 +140,58 @@
     opacity: 0;
     transition: all .5s;
 }
+.upload-img-row {
+  background: #eaedf1;
+  padding: 35px 28px;
+  margin-top: 22px;
+}
+.up-top-content h6 {
+    color: #959595;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.up-top-content h4 {
+    font-size: 20px;
+    color: #00475a;
+    font-weight: 600;
+}
+.images-row-items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.up-img-row {
+    border: 1px dashed #c11768;
+    text-align: center;
+    height: 100%;
+    margin: 8px;
+    position: relative;
+    height: 204px;
+    overflow: hidden;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.up-img-row a {
+    display: block;
+    width: 44px;
+    height: 44px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.up-img-row a .fa {
+    font-size: 2.5rem;
+    color: #00475a;
+}
 .premium-div-button.selected .checked-sign {
     opacity: 1;
 }
@@ -766,12 +818,79 @@ a.pt {
     text-transform: uppercase;
 }
 .pink-g-btn {
-    background-color: #c11768;
-    background-image: linear-gradient(to right,#c11768,#ff007a);
+    background-color: #00475a;
+    background-image: linear-gradient(to right,#027b9a,#00475a);
     cursor: pointer;
     color: #fff!important;
     font-weight: 700;
     letter-spacing: 1px;
+}
+.progressbar {
+    margin-bottom: 46px;
+    overflow: hidden;
+    color: #d3d3d3;
+    padding-left: 0;
+    text-align: center;
+}
+.progressbar .photo:before {
+    font-family: FontAwesome;
+    content: "\f030";
+}
+.progressbar li.active:before, .progressbar li.active:after {
+    background: #c31669;
+}
+.progressbar .promote:before {
+    font-family: FontAwesome;
+    content: "\f164";
+}
+.progressbar .confirm:before {
+    font-family: FontAwesome;
+    content: "\f00c";
+}
+.progressbar li.active {
+    color: #c31669!important;
+}
+.progressbar li {
+    list-style-type: none;
+    font-size: 18px;
+    width: 25%;
+    color: #d3d3d3!important;
+    display: inline-block;
+    position: relative;
+    font-weight: 400;
+    margin: 0 -2px;
+    vertical-align: top;
+}
+.progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #d3d3d3;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    z-index: 0;
+}
+.progressbar li.active:before, .progressbar li.active:after {
+    background: #c31669;
+}
+.progressbar .personal:before {
+    font-family: FontAwesome;
+    content: "\f007";
+}
+.progressbar li:before {
+    width: 38px;
+    height: 38px;
+    line-height: 33px;
+    display: block;
+    font-size: 15px;
+    color: #fff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 5px auto;
+    padding: 2px;
+    z-index: 2;
+    position: relative;
 }
 .free-ad-white-bg-first p {
     margin-bottom: 5px
@@ -1609,6 +1728,7 @@ button#dimoff.not-active {
 .custom_btn_one, .custom_btn_two{
   margin:10px 0px;
 }
+
 .cart-tabel .table thead th, .cart-tabel .table tbody td {
     border-bottom: 1px solid #fff;
     padding: 8px 10px;
