@@ -37,7 +37,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <span class="sign-up-icons mr-1">
+                <span class="sign_up_icons mr-1">
                   <i class="fa fa-sign-out" aria-hidden="true"></i>
                 </span>
               Log Out
@@ -51,92 +51,94 @@
     </section>
     
     <section class="main-content">
-      <div class="container-fluid ">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-3 p-0">
-            <div class="left_sidebar_panel boder20">
+            <div class="left_sidebar_panel">
                 <div class="profile_panel">
                     <div class="user_login_img"><img src="assets/images/user-img.jpg" alt=""></div>
                     <div class="user_login_name"><span>Hello,</span><span>Profile Name</span></div>                </div>
                 <ul class="sidebar_menu">
-                    <li class="active"><a href="dashboard.html"><i class="fa fa-tachometer" aria-hidden="true"></i><span>Dashboard</span></a></li>
+                    <li><a href="dashboard.html"><i class="fa fa-tachometer" aria-hidden="true"></i><span>Dashboard</span></a></li>
                     <li><a href="ads-listing.html"><i class="fa fa-adn" aria-hidden="true"></i> <span>Ads</span></a></li>
                     <li><a href="product.html"><i class="fa fa-star" aria-hidden="true"></i> <span>Products</span></a></li>
                     <li><a href="credit-purchase.html"><i class="fa fa-money" aria-hidden="true"></i> <span>Credits</span></a></li>
-                    <li><a href="account-setting.html"><i class="fa fa-cog" aria-hidden="true"></i> <span>Account Setting</span></a></li>
+                    <li class="active"><a href="account-setting.html"><i class="fa fa-cog" aria-hidden="true"></i> <span>Account Setting</span></a></li>
                 </ul>
             </div>
           </div>
 
           <div class="col-md-9">
-                <div class="container">
-      <div class="row dashboard_main_content">
-        <div class="col-md-4">
-          <div class="profile_bg">
-            <h2 class="heading_profile white-text">Profile</h2>
-            <p class="white-text profile_name">Profile Name</p>
-          </div>
-          <div class="welcome_msg mt-20">
-            <h4 class="blue-text">Welcome Message</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            </p>
-          </div>
-        </div>
-
-        <div class="col-md-8">
-          <div class="right_top">
-            <div class="credit_ads_title grey_bg">
-              <h3>Credits</h3>
-            </div>
-            <div class="credit_ad_item">
-              <div class="credit_coin">
-                <ul>
-                    <li><span class="current_credit">Current Credits</span></li>
-                    <li><span class="credit_count">0</span></li>
-                    <li><a href="credit-purchase.html" class="custom-btn">BUY CREDITS</a></li>
-                </ul>
-            </div>
-            </div>
-          </div>
-          <div class="right_bottom">
-            <div class="credit_ads_title">
-              <h3>Ads</h3>
-            </div>
-            <div class="ads-grapsh-panel">
-              <ul>
-                  <li><img src="https://dashboard.amitkushwaha.tech/images/ads-icons.png" alt=""></li>
-                  <li>
-                      <h6>Total Ads</h6>
-                      <div class="total_ads" id="total_ads">
-                          <span class="total_ad_number">0</span>
-                      </div>
-                  </li>
-                  <li>
-                      <h6>Active</h6>
-                      <div class="total_ads" id="total_ads">
-                          <span class="total_ad_number">0</span>
-                          <span class="verifyed-ads"><i class="fa fa-check" aria-hidden="true"></i></span>
-                      </div>
-                  </li>
-                  <li>
-                    <h6>Top Ads</h6>
-                    <div class="total_ads" id="total_ads">
-                        <span class="total_ad_number">0</span>
-                        <span class="verifyed-ads tops-ads"><i class="fa fa-arrow-up" aria-hidden="true"></i></span>
-                    </div>
-                  </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+             <div class="right-sidebar-panel2">
+			   <div class="row">
+				  <div class="col-lg-12">
+					 <div class="chnage-password-bg">
+						<div class="row">
+						   <div class="col-md-6">
+							  <div class="password-panel text-center">
+								 <h3>Change Password</h3>
+								 <a href="reset-password.html" class="pink-bold">Change Password</a>
+							  </div>
+						   </div>
+						   <div class="col-md-6">
+							  <div class="password-panel text-center">
+								 <h3>Change Password</h3>
+								 <span class="pink-bold">NA</span>
+							  </div>
+						   </div>
+						</div>
+						<div class="row">
+						   <div class="col-lg-12">
+							  <form id="MyForm" class="password-panel my-search-form" method="POST">                           
+								 <h3>Add new E-mail update </h3>
+								 <div class="password-email-captcha">
+									<div class="form-group">
+									   <input type="text" name="email" id="email" value="" class="form-control form-control-s" placeholder="E-mail">
+									</div>
+									<div class="captcha-row">
+									   <script src="https://www.google.com/recaptcha/api.js?" async="" defer=""></script>
+									   <div data-sitekey="6Lc0k5wbAAAAANZLbaFriyoDRJe3VU_uJrDzlBa7" class="g-recaptcha">
+										  <div style="width: 304px; height: 78px;">
+											 <div><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lc0k5wbAAAAANZLbaFriyoDRJe3VU_uJrDzlBa7&amp;co=aHR0cHM6Ly9pbi5zZHVrby5jb206NDQz&amp;hl=en&amp;v=NZrMWHVy58-S9gVvad9HVGxk&amp;size=normal&amp;cb=2d378vob09a" width="304" height="78" role="presentation" name="a-5547ayrh44k8" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div>
+											 <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+										  </div>
+										  <iframe style="display: none;"></iframe>
+									   </div>
+									</div>
+								 </div>
+								 <div class="contineu-btn-col">
+									<button type="submit" class="pink-g-btn bttn_email">Add new e-mail</button>
+								 </div>
+							  </form>
+						   </div>
+						</div>
+						<div class="row">
+						   <div class="col-lg-12">
+							  <div class="password-panel my-search-form">
+								 <h3></h3>
+								 <p>I am hereby consent the processing of my personal data. I have read the <a href="terms-and-conditions.html">Terms and Conditions</a> Terms and Conditions <br>for the purposes related to the provision of the web service.</p>
+								 <ul>
+									<li>
+									   <label class="switch">
+									   <input type="checkbox" id="myCheck">
+									   <span class="cheked-slider"></span>
+									   </label>
+									</li>
+									<li>                               
+									   <button type="button" class="delete-profile">I want to delete my profile</button>
+									</li>
+								 </ul>
+							  </div>
+						   </div>
+						</div>
+					 </div>
+				  </div>
+			   </div>
+			</div>
           </div>
         </div>
       </div>
     </section>
-
 
     <footer class="footer">
             <div class="footer-top">
@@ -169,6 +171,7 @@
                 </div>
             </div>
         </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
   </body>
