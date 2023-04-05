@@ -1844,8 +1844,115 @@ button#dimoff.not-active {
   margin-top:30px;
 }
 @media screen and (max-width:567px){
-  .services-items {
+  .main_menu #navbarNav {
+  background: #830000;
+  padding: 20px;
+  border-radius: 0 0 20px 20px;
+}
+.main_menu_bar .nav-item .nav-link, .navbar-light .navbar-nav .active>.nav-link{
+  color:#fff;
+}
+.services-items {
     width: 100%;
+}
+.free-title-span {
+    font-size: 14px!important;
+}
+h3{
+  font-size:14px!important;
+}
+.panel-title a {
+    display: flex;
+    justify-content: space-between;
+}
+.panel-title {
+    margin-top: 15px;
+}
+.rich-the-top {
+    display: none;
+}
+.d-flex.justify-content-between.align-items-center.mb-4.mobile-block, .d-flex.premium-four-listing {
+    display: block!important;
+}
+.creadit-package-content h4, .tp-prem-right-img .product-tabs-heading, .call-escort-panel h5, .vip-with-title h5, .plan-listing-with-img h3, .tab-heading-items h5 {
+    font-size: 13px;
+}
+.tab-heading-items p, .tp-prem-right-img p, .tp-prem-right-img p a, .claim-content-panel p, .panel-body p {
+    font-size: 13px;
+}
+.image_left_pre img {
+    width: 72px;
+}
+.tp-prem-left-img img {
+    height: auto;
+    width: 96px;
+}
+.plan-listing-with-img img {
+    height: 50px;
+}
+.credit-title {
+    margin: 0;
+    font-size: 13px;
+}
+.plan-listing-with-img {
+    width: 50%;
+    padding: 0 12px;
+}
+.claim-logo img{
+  width: 80%;
+}
+.top-plan-items {
+    background: #fff;
+    padding: 40px 9px 10px;
+    border-radius: 10px;
+}
+
+.pink-g-btn.promote-btns, .blue-g-btn.promote-btns {
+    margin: 30px 0;
+    width: 100%;
+}
+.promote-youra-ads-panel {
+    padding: 0px;
+}
+.hot-price-section {
+    width: 100%;
+}
+.call-escort-panel h5 {
+
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.text_align_center_footer{
+  text-align:center;
+  margin: 10px 0px;
+  
+}
+.footer {
+padding: 6px 0;
+}
+.footer-bottom {
+    text-align:center;
+    margin: 10px 0px;
+}
+.social-icon {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  margin: 10px 0px;
+}
+.sidebar_menu li a {
+    padding: 14px 14px;
+    position: relative;
+    display: block;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 7px 10px;
+    border-radius: 10px;
+    background: #830000;
 }
 
 .payment-details-table {
@@ -2301,4 +2408,47 @@ input:checked+.cheked-slider:before {
     width: 100%;
     border: 2px solid #e294bf;
   }
+}
+.whatsapp-tick {
+    display: none;
+}
+
+.whatsapp-spn, .whatsapp-tick {
+    background: #25d366;
+    width: 54px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 21px;
+    margin-right: -3px;
+}
+.whatsapp-spn i, .whatsapp-tick i {
+    color: #fff;
+}
+.whatsapp-text {
+    color: #25d366!important;
+    text-transform: uppercase;
+    padding: 0 6px;
+    font-weight: 600;
+  font-size: 14px;
+}
+.whatsapp-spn, .whatsapp-tick {
+    background: #25d366;
+    width: 54px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 21px;
+    margin-right: -3px;
+}
+.whatapp-tick-row.selected .whatsapp-spn {
+    display: none
+}
+
+.whatapp-tick-row.selected .whatsapp-tick {
+    display: block;
+    margin-left: -3px
+}
+.reset_pw_btn{
+  padding: 10px 20px;
 }
