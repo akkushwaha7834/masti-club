@@ -1844,6 +1844,9 @@ button#dimoff.not-active {
   margin-top:30px;
 }
 @media screen and (max-width:567px){
+  .back-to-prev img{
+    display: none;
+  }
   .main_menu #navbarNav {
   background: #830000;
   padding: 20px;
